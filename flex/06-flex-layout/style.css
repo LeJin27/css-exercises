@@ -7,6 +7,7 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
@@ -46,9 +47,16 @@ input {
 .left-links, .right-links{
   display: flex;
   gap: 20px;
-  list-style-type: none;
   margin: 0px;
   border: 0px;
+  list-style-type: none;
+  padding: 0px;
+  
+  
+}
+.left-links a, .right-links a{
+  text-decoration: none;
+  color: #303030;
 }
 
 .content {
@@ -56,6 +64,14 @@ input {
   flex-direction: column;
   align-self: center;
   align-items: center;
+
+}
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px
 }
 
 
